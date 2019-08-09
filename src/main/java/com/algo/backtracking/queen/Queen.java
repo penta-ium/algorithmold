@@ -1,4 +1,4 @@
-package com.algo.leet.queen;
+package com.algo.backtracking.queen;
 
 public class Queen {
 
