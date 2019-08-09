@@ -3,6 +3,9 @@ package com.algo.backtracking.kuohao;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 括号生成-穷举
+ */
 public class KuohaoQiongju {
 
     static final int NUMS = 3;

@@ -1,5 +1,8 @@
 package com.algo.backtracking.queen;
 
+/**
+ * 皇后问题
+ */
 public class MyQueen {
 
     static int NUM = 12;
