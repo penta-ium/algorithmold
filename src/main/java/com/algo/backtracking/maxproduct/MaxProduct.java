@@ -3,6 +3,9 @@ package com.algo.backtracking.maxproduct;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 最大乘积
+ */
 public class MaxProduct {
 
     static int[] nums = new int[]{2, 3, 1/2, 4, 2, 3, 1/11, 3, 6};

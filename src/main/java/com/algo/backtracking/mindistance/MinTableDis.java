@@ -2,6 +2,9 @@ package com.algo.backtracking.mindistance;
 
 import com.algo.common.ArrayUtil;
 
+/**
+ * 最小距离
+ */
 public class MinTableDis {
 
 
