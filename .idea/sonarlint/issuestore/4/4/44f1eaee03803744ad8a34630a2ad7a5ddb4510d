@@ -1,0 +1,27 @@
+
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ÄºÉùÿÿÿÿ8÷Ÿ”µÇ-
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8÷Ÿ”µÇ-
+nsquid:S3008"PRename this field "Q_NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÏØÝ8÷Ÿ”µÇ-
+nsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(Ø™Áœùÿÿÿÿ8÷Ÿ”µÇ-
+‰"squid:ClassVariableVisibilityCheck"OMake map a static final constant or non-public and provide accessors if needed.(¶Ð°êüÿÿÿÿ8÷Ÿ”µÇ-
+†"squid:ClassVariableVisibilityCheck"QMake Q_NUM a static final constant or non-public and provide accessors if needed.(ùÏØÝ8÷Ÿ”µÇ-
+[
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ŸÎ‡›þÿÿÿÿ8÷Ÿ”µÇ-
+;squid:S2386"Make this member "protected".(»Ã—Š8÷Ÿ”µÇ-
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8÷Ÿ”µÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(íã Øüÿÿÿÿ8÷Ÿ”µÇ-
+Isquid:S1444"+Make this "public static Q_NUM" field final(ùÏØÝ8÷Ÿ”µÇ-
+…"squid:ClassVariableVisibilityCheck"PMake arry a static final constant or non-public and provide accessors if needed.(»Ã—Š8÷Ÿ”µÇ-
+Lsquid:S1444")Make this "public static map" field final(¶Ð°êüÿÿÿÿ8÷Ÿ”µÇ-
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(é­’ßúÿÿÿÿ8÷Ÿ”µÇ-
+Usquid:S1135
+"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8÷Ÿ”µÇ-
+Hsquid:S1444"*Make this "public static arry" field final(»Ã—Š8÷Ÿ”µÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬€ˆôøÿÿÿÿ8÷Ÿ”µÇ-
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(‡Šƒùÿÿÿÿ8÷Ÿ”µÇ-

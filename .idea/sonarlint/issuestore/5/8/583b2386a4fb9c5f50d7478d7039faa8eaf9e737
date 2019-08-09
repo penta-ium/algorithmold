@@ -1,0 +1,31 @@
+
+bsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ä’ä‹
+gsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(¿¬Ò˜ýÿÿÿÿ
+bsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(Ø¡¿¥
+gsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(ÿÛ¤›ûÿÿÿÿ
+bsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(ºÆ’þ
+gsquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(¤¨îùùÿÿÿÿ
+bsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(ºÆ’þ
+O
+squid:S106q"9Replace this use of System.out or System.err by a logger.(Í×Û
+T
+squid:S106u"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O
+squid:S106x"9Replace this use of System.out or System.err by a logger.(úÒ¼ö
+O
+squid:S106y"9Replace this use of System.out or System.err by a logger.(×•œ²
+T
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+T
+squid:S106}"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÈÑ–¹ûÿÿÿÿ
+U
+squid:S106„"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Asquid:S1481_"*Remove this unused "index" local variable.(µ“æÍ
+isquid:S3776G"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å¢“Ùþÿÿÿÿ
+Bsquid:S11722"&Remove these unused method parameters.(¡œÎ¶ùÿÿÿÿ
+Psquid:S1854_"9Remove this useless assignment to local variable "index".(µ“æÍ

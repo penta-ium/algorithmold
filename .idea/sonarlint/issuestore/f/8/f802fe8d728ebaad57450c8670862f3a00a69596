@@ -1,0 +1,14 @@
+
+<squid:S2129)" Remove this "String" constructor(±æ·åýÿÿÿÿ
+<squid:S2129+" Remove this "String" constructor(³»…­üÿÿÿÿ
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ÌäãÛþÿÿÿÿ
+2squid:S3626P"Remove this redundant jump.(ûÁÝ…
+gsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(óÆÄÙùÿÿÿÿ
+@squid:S1068")Remove this unused "inner" private field.(ï¾žâ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌäãÛþÿÿÿÿ
+ksquid:S1450"TRemove the "inner" field and declare it as a local variable in the relevant methods.(ï¾žâ
+T
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ÌäãÛþÿÿÿÿ

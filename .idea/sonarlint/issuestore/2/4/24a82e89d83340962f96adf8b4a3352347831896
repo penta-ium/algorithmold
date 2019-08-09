@@ -1,0 +1,34 @@
+
+bsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ä’ä‹
+gsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(¿¬Ò˜ýÿÿÿÿ
+bsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Ø¡¿¥
+bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(ñŒö
+gsquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(ÿÛ¤›ûÿÿÿÿ
+bsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(ºÆ’þ
+gsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(¤¨îùùÿÿÿÿ
+bsquid:CommentedOutCodeLine{"<This block of commented-out lines of code should be removed.(ºÆ’þ
+T
+squid:S106}"9Replace this use of System.out or System.err by a logger.(Ïòº üÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+P
+squid:S106“"9Replace this use of System.out or System.err by a logger.(úÒ¼ö
+P
+squid:S106”"9Replace this use of System.out or System.err by a logger.(×•œ²
+U
+squid:S106–"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U
+squid:S106ž"9Replace this use of System.out or System.err by a logger.(ÈÑ–¹ûÿÿÿÿ
+U
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Asquid:S1481k"*Remove this unused "index" local variable.(µ“æÍ
+Isquid:S1481ƒ",Remove this unused "friends" local variable.(§¹Œúÿÿÿÿ
+isquid:S3776J"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘
+Bsquid:S11725"&Remove these unused method parameters.(¡œÎ¶ùÿÿÿÿ
+Hsquid:S1172"+Remove this unused method parameter "args".(üÎÆýÿÿÿÿ
+Psquid:S1854k"9Remove this useless assignment to local variable "index".(µ“æÍ
+Xsquid:S1854ƒ";Remove this useless assignment to local variable "friends".(§¹Œúÿÿÿÿ

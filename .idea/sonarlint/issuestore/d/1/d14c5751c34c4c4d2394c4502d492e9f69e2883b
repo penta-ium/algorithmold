@@ -1,0 +1,20 @@
+
+jsquid:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÅµ 8œî¯µÇ-
+isquid:S3008"LRename this field "W" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µƒð
+8œî¯µÇ-
+osquid:S3008"LRename this field "G" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë›Àòýÿÿÿÿ8œî¯µÇ-
+isquid:S3008 "LRename this field "P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÙëj8œî¯µÇ-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ü·Ö¼üÿÿÿÿ8œî¯µÇ-
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ñÿ¶âúÿÿÿÿ8œî¯µÇ-
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ºÌš½8œî¯µÇ-
+[
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ºÙ®ðùÿÿÿÿ8œî¯µÇ-
+V
+squid:S106A"9Replace this use of System.out or System.err by a logger.(®’‚Š8œî¯µÇ-
+psquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÔÝê8œî¯µÇ-
+psquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÔÝê8œî¯µÇ-
+usquid:S00117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñê®ºÿÿÿÿÿ8œî¯µÇ-
+psquid:S00117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ð‰„8œî¯µÇ-

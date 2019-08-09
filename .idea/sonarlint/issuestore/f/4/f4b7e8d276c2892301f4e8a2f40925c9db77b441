@@ -1,0 +1,18 @@
+
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8˜‘ÂµÇ-
+[
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8˜‘ÂµÇ-
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.( ²Žñ8˜‘ÂµÇ-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(Ì›Õãýÿÿÿÿ8˜‘ÂµÇ-
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(²…ê8˜‘ÂµÇ-
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(é­’ßúÿÿÿÿ8˜‘ÂµÇ-
+V
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Œ™áô8˜‘ÂµÇ-
+[
+squid:S106@"9Replace this use of System.out or System.err by a logger.(‡Šƒùÿÿÿÿ8˜‘ÂµÇ-
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(ÂóÔÖ8˜‘ÂµÇ-
+lsquid:S3008"NRename this field "NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÀšº8˜‘ÂµÇ-
+ssquid:S3008"PRename this field "BOARD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êƒ¤¯úÿÿÿÿ8˜‘ÂµÇ-
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(’öå8˜‘ÂµÇ-

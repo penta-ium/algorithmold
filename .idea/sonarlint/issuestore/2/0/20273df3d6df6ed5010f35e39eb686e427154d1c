@@ -1,0 +1,14 @@
+
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(‡„
+T
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ÔÈóúÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í¬¶Ñıÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"OMake val a static final constant or non-public and provide accessors if needed.(Á½¦ÿÿÿÿÿ
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(•íâî
+…"squid:ClassVariableVisibilityCheck"RMake isWord a static final constant or non-public and provide accessors if needed.(óÕ¦şÿÿÿÿ
+T
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ùĞ‹ıùÿÿÿÿ
+]squid:S1192F"FDefine a constant instead of duplicating this literal "admin" 3 times.(ˆØ˜°
+‡"squid:ClassVariableVisibilityCheck"TMake children a static final constant or non-public and provide accessors if needed.(Í¬¶Ñıÿÿÿÿ

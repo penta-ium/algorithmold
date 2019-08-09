@@ -1,0 +1,19 @@
+
+nsquid:S1192"PDefine a constant instead of duplicating this literal "æ‰§è¡Œæ­¥æ•°ï¼š" 3 times.(¦±Ø–8§Ò¸µÇ-
+msquid:S3008"ORename this field "SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾‘óª8§Ò¸µÇ-
+{
+squid:S135B"YReduce the total number of break and continue statements in this loop to use at most one.(¸þõöúÿÿÿÿ8§Ò¸µÇ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™ˆº£úÿÿÿÿ8§Ò¸µÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥þ–íÿÿÿÿÿ8§Ò¸µÇ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦±Ø–8§Ò¸µÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ¡Î™øÿÿÿÿ8§Ò¸µÇ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦±Ø–8§Ò¸µÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä®ÇÌüÿÿÿÿ8§Ò¸µÇ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦±Ø–8§Ò¸µÇ-
+|squid:S1488$"YImmediately return this expression instead of assigning it to the temporary variable "v".(ùíé³øÿÿÿÿ8§Ò¸µÇ-

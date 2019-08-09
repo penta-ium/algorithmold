@@ -1,0 +1,34 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ë»¹øûÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã•Â¶ÿÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²œ‰
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(†úÏŸûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÿÉûùÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¡ì„
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÒøÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªŸåŞşÿÿÿÿ
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öİût
+}"squid:ClassVariableVisibilityCheck"QMake right a static final constant or non-public and provide accessors if needed.(ìî¯ù
+|"squid:ClassVariableVisibilityCheck"PMake left a static final constant or non-public and provide accessors if needed.(üÆ”¸
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¯Ïøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹ƒ³À
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ä–¶
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»íıÿ
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ş„‹È
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ù¨
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëÆÍİüÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ş„‹È
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÿÉûùÿÿÿÿ
+{"squid:ClassVariableVisibilityCheck"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öıò

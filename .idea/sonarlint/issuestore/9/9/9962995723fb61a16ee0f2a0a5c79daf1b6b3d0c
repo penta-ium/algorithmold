@@ -1,0 +1,6 @@
+
+Psquid:S18549"9Remove this useless assignment to local variable "total".(õ’÷
+Hsquid:S1264",Replace this "for" loop with a "while" loop.(Û•™…şÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‡ıí¤
+Asquid:S14819"*Remove this unused "total" local variable.(õ’÷
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã˜©Èùÿÿÿÿ8ˆëºµÇ-

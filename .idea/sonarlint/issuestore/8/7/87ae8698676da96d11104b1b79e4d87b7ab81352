@@ -1,0 +1,25 @@
+
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùž® úÿÿÿÿ8¸ŽµÇ-
+V
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(íê­…8¸ŽµÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ž¸•äûÿÿÿÿ8¸ŽµÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¸ŽµÇ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(íê­…8¸ŽµÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ÝŒ©øÿÿÿÿ8¸ŽµÇ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¸ŽµÇ-
+V
+squid:S106&"9Replace this use of System.out or System.err by a logger.(¿µ‘»8¸ŽµÇ-
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ8¸ŽµÇ-
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ8¸ŽµÇ-
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¸ŽµÇ-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ñ–Â£8¸ŽµÇ-
+squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¿æÛ 8¸ŽµÇ-

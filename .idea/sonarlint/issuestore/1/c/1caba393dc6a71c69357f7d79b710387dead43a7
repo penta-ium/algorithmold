@@ -1,0 +1,12 @@
+
+gsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(óÆÄÙùÿÿÿÿ
+gsquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(õºý©þÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌäãÛþÿÿÿÿ
+T
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ÌäãÛþÿÿÿÿ
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(Ï¥¾Âüÿÿÿÿ
+<squid:S2129#" Remove this "String" constructor(±æ·åýÿÿÿÿ
+<squid:S2129%" Remove this "String" constructor(³»…­üÿÿÿÿ
