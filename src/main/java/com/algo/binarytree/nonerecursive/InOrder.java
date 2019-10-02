@@ -5,6 +5,12 @@ import com.algo.binarytree.Order;
 
 public class InOrder extends Order {
 
+    /**
+     * 1.递归地把左子树入栈
+     * 2.开始pop
+     * 3.挨个栈顶元素访问其右子树（因为其左子树肯定已经访问完成）
+     * @param root
+     */
     public void traverse(BinaryTree root) {
 
         if (root == null)
