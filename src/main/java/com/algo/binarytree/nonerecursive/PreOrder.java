@@ -6,6 +6,12 @@ import java.util.Stack;
 
 public class PreOrder {
 
+    /**
+     * 左子树一股脑的入栈;入栈前visit；
+     * 挨个弹出，并判断右子树；
+     * 右子树有左子树就一股脑的进栈左子树；
+     * @param root
+     */
     public void traverse(BinaryTree root) {
         if (root == null)
             return;
