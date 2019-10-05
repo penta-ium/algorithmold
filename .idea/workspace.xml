@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9ebbf9-14e2-455e-b491-bcc5cf5c6cf9" name="Default" comment="后序遍历增加一种写法，手工模拟子树入栈出栈">
+    <list default="true" id="0f9ebbf9-14e2-455e-b491-bcc5cf5c6cf9" name="Default" comment="给几种遍历增加了注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/InOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PostOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PreOrder.java" afterDir="false" />
     </list>
@@ -415,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570085335232</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="给几种遍历增加了注释">
+      <created>1570118341556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570118341556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -467,7 +473,8 @@
     <MESSAGE value="迭代器模式" />
     <MESSAGE value="标准写法待续" />
     <MESSAGE value="后序遍历增加一种写法，手工模拟子树入栈出栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="后序遍历增加一种写法，手工模拟子树入栈出栈" />
+    <MESSAGE value="给几种遍历增加了注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="给几种遍历增加了注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

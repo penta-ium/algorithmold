@@ -4,6 +4,10 @@ import com.algo.binarytree.BinaryTree;
 
 import java.util.Stack;
 
+/**
+ * 先序也有两种思路：一股脑的把左子树入栈；挨个入栈左右子树；
+ * 两种思路体现的也是类似于深度优先、广度优先的不同思想；
+ */
 public class PreOrder {
 
     /**

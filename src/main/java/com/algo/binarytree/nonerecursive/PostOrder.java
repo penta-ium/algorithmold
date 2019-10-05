@@ -6,6 +6,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/**
+ * 第一个思路traverse：
+ * 比较巧妙，把先序遍历的结果暂存，然后再输出，就可以得到后续遍历的结果；
+ * 第二个思路traverse2：
+ * 二、三两种思路整体都是使用了增加一个标志位，来标识父节点是否可以弹出栈visit；
+ * 不同点是思路二是一种深度优先的思想，思路三是一种广度优先的思想；
+ * 左子树一股脑的入栈，然后在出栈的时候只判断右子树是否为空或者右子树已经处理完成；
+ * 第三个思路traverse3：
+ * 入栈根节点，然后分别入栈左子树和右子树，这时候需要分别判断左右子树，逻辑上复杂一点；
+ *
+ */
 public class PostOrder {
 
     /**
@@ -87,7 +98,6 @@ public class PostOrder {
         //初始化
         while(root != null) {
             stack.push(root);
-            flags.put(root, 0);
             root = root.left;
         }
 
@@ -105,7 +115,6 @@ public class PostOrder {
                 BinaryTree leftNode = node.right;
                 while(leftNode != null){
                     stack.push(leftNode);
-                    flags.put(leftNode, 0);
                     leftNode = leftNode.left;
                 }
             }
@@ -154,13 +163,14 @@ public class PostOrder {
 
             //要用 == 1，不要用== new Integer(1)
             //visit
-            if(node.right == null || (flags.containsKey(node) && flags.get(node) == 1)) {
+            if((node.right == null || node.left == null)
+                    || (flags.containsKey(node) && flags.get(node) == 1)) {
                 BinaryTree.visit(node);
                 stack.pop();
             } else{
                 //next
+                flags.put(node, 1);
                 if (node.right != null) {
-                    flags.put(node, 1);
                     stack.push(node.right);
                 }
 
@@ -173,7 +183,11 @@ public class PostOrder {
     }
 
     public static void main(String[] args) {
-        new PostOrder().traverse3(BinaryTree.generate());
+        BinaryTree node3 = new BinaryTree(3, null, null);
+        BinaryTree node2 = new BinaryTree(2, node3, null);
+        BinaryTree node1 = new BinaryTree(1, null, node2);
+        //new PostOrder().traverse3(BinaryTree.generate());
+        new PostOrder().traverse2(node1);
         System.out.println();
         System.out.println(new Integer(1) == null);
     }
