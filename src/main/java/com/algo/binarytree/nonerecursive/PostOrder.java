@@ -16,6 +16,7 @@ import java.util.Stack;
  * 第三个思路traverse3：
  * 入栈根节点，然后分别入栈左子树和右子树，这时候需要分别判断左右子树，逻辑上复杂一点；
  *
+ * 广度优先用途更广泛，可以用在N叉树；
  */
 public class PostOrder {
 
@@ -163,7 +164,7 @@ public class PostOrder {
 
             //要用 == 1，不要用== new Integer(1)
             //visit
-            if((node.right == null || node.left == null)
+            if((node.right == null && node.left == null)
                     || (flags.containsKey(node) && flags.get(node) == 1)) {
                 BinaryTree.visit(node);
                 stack.pop();
@@ -183,11 +184,8 @@ public class PostOrder {
     }
 
     public static void main(String[] args) {
-        BinaryTree node3 = new BinaryTree(3, null, null);
-        BinaryTree node2 = new BinaryTree(2, node3, null);
-        BinaryTree node1 = new BinaryTree(1, null, node2);
+        new PostOrder().traverse3(BinaryTree.generateSpe());
         //new PostOrder().traverse3(BinaryTree.generate());
-        new PostOrder().traverse2(node1);
         System.out.println();
         System.out.println(new Integer(1) == null);
     }

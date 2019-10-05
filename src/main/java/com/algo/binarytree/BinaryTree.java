@@ -26,6 +26,15 @@ public class BinaryTree {
         return tree1;
     }
 
+    public static BinaryTree generateSpe() {
+
+        BinaryTree node3 = new BinaryTree(3, null, null);
+        BinaryTree node2 = new BinaryTree(2, node3, null);
+        BinaryTree node1 = new BinaryTree(1, null, node2);
+
+        return node1;
+    }
+
     public static void visit(BinaryTree node) {
         if (node == null) {
             System.out.print("null ");
