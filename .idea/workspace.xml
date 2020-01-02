@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f9ebbf9-14e2-455e-b491-bcc5cf5c6cf9" name="Default" comment="后序的两种增加标志位的方法，个别地方做了修复，逻辑不对的地方；">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/binarytree/nonerecursive/PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algo/backtracking/kuohao/KuohaoBtrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algo/backtracking/kuohao/KuohaoBtrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCommon.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Layer">
+  <component name="RunManager" selected="Application.KuohaoBtrack">
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" web_path="">
       <method />
     </configuration>
@@ -220,13 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Layer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algo.binarytree.narytree.Layer" />
+    <configuration name="KuohaoBtrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo.backtracking.kuohao.KuohaoBtrack" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algo.binarytree.narytree.*" />
+          <option name="PATTERN" value="com.algo.backtracking.kuohao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,13 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algo.backtracking.queen.MyQueen" />
+    <configuration name="Layer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algo.binarytree.narytree.Layer" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algo.backtracking.queen.*" />
+          <option name="PATTERN" value="com.algo.binarytree.narytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,19 +315,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyQueen" />
       <item itemvalue="Application.InOrder" />
       <item itemvalue="Application.PreOrder" />
       <item itemvalue="Application.PostOrder" />
       <item itemvalue="Application.Layer" />
+      <item itemvalue="Application.KuohaoBtrack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KuohaoBtrack" />
         <item itemvalue="Application.Layer" />
         <item itemvalue="Application.PostOrder" />
         <item itemvalue="Application.InOrder" />
         <item itemvalue="Application.PreOrder" />
-        <item itemvalue="Application.MyQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570263613942</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="后序的两种增加标志位的方法，个别地方做了修复，逻辑不对的地方；">
+      <created>1570280514382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570280514382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

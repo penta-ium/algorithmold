@@ -1,5 +1,10 @@
+import org.junit.Test;
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class TestCommon {
 
@@ -28,5 +33,14 @@ public class TestCommon {
         final String[] units = new String[]{"B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB"};
         int digitGroups = (int) (Math.log10(size) / Math.log10(1024));
         return new DecimalFormat("#,##0.#").format(size / Math.pow(1024, digitGroups)) + " " + units[digitGroups];
+    }
+
+    @Test
+    public void entry() {
+        TreeMap<Integer, List<Integer>> map = new TreeMap<Integer, List<Integer>>();
+
+        for(Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
+            System.out.println(entry.getValue());
+        }
     }
 }
