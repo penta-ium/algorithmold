@@ -10,7 +10,7 @@ public class KuohaoQiongju {
 
     static final int NUMS = 3;
 
-    public static List<String> generateParenthesis(int n){
+    public static List<String> generateParenthesis(){
         List<String> result = new ArrayList<>();
         gene("", result);
         System.out.println(result);
@@ -28,6 +28,6 @@ public class KuohaoQiongju {
     }
 
     public static void main(String[] args) {
-        generateParenthesis(3);
+        generateParenthesis();
     }
 }

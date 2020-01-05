@@ -1,5 +1,9 @@
 package com.algo.dp.kingandgold;
 
+/**
+ * 国王和金矿
+ * 递归算法
+ */
 public class KingAndGold {
 
     /**
@@ -55,7 +59,7 @@ public class KingAndGold {
             return G[N-1];
 
         if (W < P[N-1]) {
-            return 0;
+            return 0;//这一步是为什么来着。
         }
 
         int N_1 = dig(N-1, W);

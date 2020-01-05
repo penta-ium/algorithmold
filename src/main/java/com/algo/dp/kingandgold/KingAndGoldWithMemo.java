@@ -1,5 +1,9 @@
 package com.algo.dp.kingandgold;
 
+/**
+ * 国王和金矿
+ * 递归+暂存
+ */
 public class KingAndGoldWithMemo {
 
     /**

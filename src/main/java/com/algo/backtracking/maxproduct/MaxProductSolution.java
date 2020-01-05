@@ -1,5 +1,6 @@
 package com.algo.backtracking.maxproduct;
 
+import com.algo.common.ArrayUtil;
 import com.google.common.primitives.Ints;
 
 public class MaxProductSolution {
@@ -9,7 +10,9 @@ public class MaxProductSolution {
             return nums[0];
         int len = nums.length;
         int result = nums[0];
+        //max[i]到第i个元素的正的最大值
         int[] max = new int[len];
+        //min[i]到第j个元素的负的最大值
         int[] min = new int[len];
         min[0] = nums[0];
         max[0] = nums[0];
@@ -27,6 +30,10 @@ public class MaxProductSolution {
         }
         //print(max);
         //print(min);
+        ArrayUtil.printArray(max);
+        ArrayUtil.printArray(min);
+
+        System.out.println(Ints.max(max));
 
         return result;
     }
@@ -122,9 +129,9 @@ public class MaxProductSolution {
 
     public static void main(String[] args) {
         //Integer[] nums = new Integer[]{-1, 2, -3, 4, -5, 6, -7};
-        Integer[] nums = new Integer[]{2, 3, -4, 3};
+        int[] nums = new int[]{2, 3, -4, 3};
         //System.out.println(new MaxProductSolution().maxProduct3(nums));
-        System.out.println(new MaxProductSolution().maxProduct4(nums));
+        new MaxProductSolution().maxProduct(nums);
     }
 
     static void print(byte[]  bytes) {

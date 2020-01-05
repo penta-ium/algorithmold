@@ -2,6 +2,10 @@ package com.algo.dp.kingandgold;
 
 import com.algo.common.ArrayUtil;
 
+/**
+ * 国王和金矿
+ * DP
+ */
 public class KingAndGoldDP {
 
     /**
