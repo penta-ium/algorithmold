@@ -1,5 +1,7 @@
 package com.algo.dp.kingandgold;
 
+import com.algo.common.ArrayUtil;
+
 public class KingAndGoldTest {
 
     static int N = 5;
@@ -11,8 +13,9 @@ public class KingAndGoldTest {
 
     public static void main(String[] args) {
 
-        System.out.println(new KingAndGoldTest().dig(N, W));
-        System.out.println(new KingAndGoldTest().digWithMemo(N, W));
+        System.out.println("递归求解：" + new KingAndGoldTest().dig(N, W));
+        System.out.println("递归+缓存化求解:" + new KingAndGoldTest().digWithMemo(N, W));
+        System.out.println("动态规划求解：" + new KingAndGoldTest().dp());
     }
 
     /**
@@ -94,14 +97,44 @@ public class KingAndGoldTest {
      */
     public int dp() {
 
-        int[][] dp = new int[N][W];
+        //dp[i][j]表示j个人挖第i个矿（下标为i，实际上为第i+1座金矿）的最大黄金数量
+        int[][] dp = new int[N][W + 1];
+
+        //动态转移方程
+        //1、决定挖第i座：（1）j够挖第i座（2）j不够挖第i座所需人数
+        //2、决定不挖第i座
+
+        //初始化
+        //0个人挖从0到i个金矿
+        for (int i = 0; i < N; i++) {
+            dp[i][0] = 0;
+        }
 
         for (int i = 0; i < N; i++) {
-            for (int j = 0; j < W; j++) {
+            for (int j = 1; j <= W; j++) {
 
+                if (i == 0) {
+                    dp[0][j] = (j >= P[0]) ? G[0] : 0;
+                    continue;
+                }
+
+                //决定挖第i
+                int value1 = 0;
+                if (j >= P[i]) {
+                    value1 = G[i] + dp[i - 1][j - P[i]];
+                } else {
+                    value1 = dp[i - 1][j];
+                }
+
+                //决定不挖第i
+                int value2 = 0;
+                value2 = dp[i - 1][j];
+
+                dp[i][j] = Math.max(value1, value2);
             }
         }
 
-        return 0;
+        //ArrayUtil.print2DArray(dp);
+        return dp[N - 1][W];
     }
 }
